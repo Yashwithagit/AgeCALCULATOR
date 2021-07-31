@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffc107"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/dateText"
+        android:text="Today"
+        android:textSize="25sp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/dobText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dateText"
+        android:layout_centerHorizontal="true"
+        android:text="Date of birth"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/ageText"
+        android:layout_below="@id/dobText"
+        android:text="age"
+        android:textSize="25sp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/dobBtn"
+        android:text="Enter your birthday"
+        android:layout_below="@id/ageText"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true"
+        android:background="#e91e63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/calbtn"
+        android:text="calculate age"
+        android:layout_below="@id/dobBtn"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true"
+        android:background="#e91e63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
+
+

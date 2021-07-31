@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "440529952623",
+    "project_id": "dob-calculator-52d00",
+    "storage_bucket": "dob-calculator-52d00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440529952623:android:ca39c2b2da484e3b14929a",
+        "android_client_info": {
+          "package_name": "com.example.dobcalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440529952623-ajja832dple0otlca5ip7u9ad5vonluc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxFgb-VKSGHFEIxA7i2pzR0D7SWEbTKJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440529952623-ajja832dple0otlca5ip7u9ad5vonluc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
